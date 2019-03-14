@@ -12,7 +12,7 @@ songs = [
 
 def say_hello
   puts "Enter your name:"
-  users_name = gets.chomp
+  name = gets.chomp
   puts "Hi #{name}!"
 end
  
