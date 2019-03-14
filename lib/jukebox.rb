@@ -54,7 +54,7 @@ def run(songs)
   if cmd == "help"
     help
     run(songs)
-  elsif cmd = list
+  elsif cmd == "list"
     list(songs)
     run(songs)
   elsif cmd == "play"
@@ -67,5 +67,3 @@ def run(songs)
     run(songs)
   end
 end
-
-run(songs)
