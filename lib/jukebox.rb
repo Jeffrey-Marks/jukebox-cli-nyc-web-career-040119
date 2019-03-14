@@ -24,13 +24,14 @@ end
 
 def play
   puts "Please enter the number or full name of a track."
-  song = gets
-  
-  if song.length == 1
-    
-  elsif songs.include(song)
-  
+  song_req = gets
+  song_req = song_req[(0..-2)]
+
+  if song_req.length == 2
+    puts "Playing #{songs[song_req.to_i - 1]}"
+  elsif songs.include?(song_req)
+    puts "Playing #{song_req}"
   else
-    
+    puts "That is not a song"
   end
 end
