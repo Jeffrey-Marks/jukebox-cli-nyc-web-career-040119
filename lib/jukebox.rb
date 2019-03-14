@@ -51,6 +51,13 @@ def run(songs)
   puts "Please enter a command"
   cmd = gets
   
+  if cmd == "help"
+    help
+    run(songs)
+  elsif cmd = list
+    list(songs)
+    run(songs)
+  elsif
 end
 
 run(songs)
