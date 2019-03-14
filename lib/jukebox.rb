@@ -20,5 +20,5 @@ end
 
 
 def play
-  
+  puts "hi"
 end
