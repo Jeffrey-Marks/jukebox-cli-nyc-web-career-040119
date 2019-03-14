@@ -57,7 +57,15 @@ def run(songs)
   elsif cmd = list
     list(songs)
     run(songs)
-  elsif
+  elsif cmd == "play"
+    play(songs)
+    run(songs)
+  elsif cmd == "exit"
+    exit_jukebox
+  else
+    puts "Not a valid command."
+    run(songs)
+  end
 end
 
 run(songs)
