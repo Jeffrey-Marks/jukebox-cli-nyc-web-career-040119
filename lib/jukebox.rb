@@ -22,10 +22,11 @@ def help
 end
 
 
-def play
+def play(songs)
   puts "Please enter the number or full name of a track."
   song_req = gets
   song_req = song_req[(0..-2)]
+  puts song_req
 
   if song_req.length == 1
     puts "Playing #{songs[song_req.to_i - 1]}"
