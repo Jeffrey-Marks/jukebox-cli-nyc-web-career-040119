@@ -48,7 +48,7 @@ end
 
 
 def run(songs)
-  puts "Please enter a command"
+  puts "Please enter a command:"
   cmd = gets
   
   if cmd == "help"
