@@ -33,6 +33,6 @@ def play(songs)
   elsif songs.include?(song_req)
     puts "Playing #{song_req}"
   else
-    puts "That is not a song"
+    puts "Invalid input, please try again"
   end
 end
