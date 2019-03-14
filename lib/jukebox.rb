@@ -10,3 +10,6 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+def run
+  puts "hello"
+end
