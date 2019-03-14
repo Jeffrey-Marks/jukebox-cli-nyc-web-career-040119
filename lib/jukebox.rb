@@ -27,7 +27,7 @@ def play
   song_req = gets
   song_req = song_req[(0..-2)]
 
-  if song_req.length == 2
+  if song_req.length == 1
     puts "Playing #{songs[song_req.to_i - 1]}"
   elsif songs.include?(song_req)
     puts "Playing #{song_req}"
