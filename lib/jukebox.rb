@@ -45,3 +45,12 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+
+def run(songs)
+  puts "Please enter a command"
+  cmd = gets
+  
+end
+
+run(songs)
